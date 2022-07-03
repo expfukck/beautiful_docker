@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   x-ui:
-    image: enwaiax/x-ui
+    image: movemama/x-ui
     container_name: x-ui
     volumes:
       - $PWD/db/:/etc/x-ui/
