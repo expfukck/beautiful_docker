@@ -16,7 +16,7 @@ docker run -itd --network=host -v $PWD/db/:/etc/x-ui/ -v $PWD/cert/:/root/cert/ 
 ### docker compose 部署
 ```shell
 mkdir x-ui && cd x-ui
-wget https://raw.githubusercontent.com/Chasing66/beautiful_docker/main/x-ui/docker-compose.yml
+wget https://raw.githubusercontent.com/expfukck/beautiful_docker/main/x-ui/docker-compose.yml
 docker-compose up -d
 ```
 
